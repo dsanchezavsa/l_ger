@@ -1,0 +1,63 @@
+import { Button } from "@/components/ui/button"
+import { ArrowRight, CheckCircle } from "lucide-react"
+import Image from "next/image"
+
+export function HeroSection() {
+  return (
+    <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-background via-muted/30 to-background">
+      <div className="container mx-auto px-4 py-8">
+        <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
+          <div className="space-y-6">
+            <div className="space-y-3">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-balance leading-tight">
+                Business Coaching y <span className="text-primary">Coaching Ontológico</span> para dueños de negocios
+              </h1>
+              <p className="text-lg md:text-xl text-muted-foreground text-pretty leading-relaxed">
+                Lográ foco, claridad y hábitos efectivos para tomar mejores decisiones y obtener resultados medibles.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-primary" />
+                <span className="text-base md:text-lg">Liderazgo con agilidad emocional</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-primary" />
+                <span className="text-base md:text-lg">Equipo alineado y comunicación efectiva</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-primary" />
+                <span className="text-base md:text-lg">Plan claro, prioridades y ejecución sostenida</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button size="lg" className="text-base md:text-lg px-6 py-4">
+                Agendar llamada de diagnóstico
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+              <Button variant="outline" size="lg" className="text-base md:text-lg px-6 py-4 bg-transparent">
+                Escribirme por WhatsApp
+              </Button>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="relative z-10">
+              <Image
+                src="/images/coach-office.png"
+                alt="Germán Bianco - Business Coach"
+                width={500}
+                height={600}
+                className="rounded-2xl shadow-2xl max-h-[70vh] w-auto object-cover"
+                priority
+              />
+            </div>
+            <div className="absolute inset-0 bg-primary/10 rounded-2xl blur-3xl transform translate-x-4 translate-y-4 -z-10"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
