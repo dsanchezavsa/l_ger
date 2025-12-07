@@ -44,7 +44,8 @@ export function TestimonialsSection() {
 
   return (
     <section
-      className="py-20 relative bg-cover bg-center bg-no-repeat"
+      id="testimonios"
+      className="py-20 scroll-mt-24 relative bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('/images/presentation-background.png')",
       }}

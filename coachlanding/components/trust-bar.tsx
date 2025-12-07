@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import Image from "next/image"
 
@@ -10,7 +10,7 @@ export function TrustBar() {
     { name: "Star Technology", logo: "/images/logos/star.png" },
     { name: "RE/MAX Vincit", logo: "/images/logos/remax-vincit.png" },
     { name: "Sharking Blue Marketing", logo: "/images/logos/shark.png" },
-    { name: "CG Consultoría Integral", logo: "/images/logos/cg-consultoria.png" },
+    { name: "CG ConsultorÃ­a Integral", logo: "/images/logos/cg-consultoria.png" },
     { name: "URB", logo: "/images/logos/urb.png" },
   ]
 
@@ -19,8 +19,8 @@ export function TrustBar() {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-lg text-muted-foreground mb-8">
-            Más de <span className="font-semibold text-primary">500+ horas</span> de sesiones y entrenamientos con
-            dueños de negocios, brokers y equipos comerciales
+            MÃ¡s de <span className="font-semibold text-primary">miles de horas</span> de sesiones y entrenamientos con
+            dueÃ±os de negocios, brokers y equipos comerciales
           </p>
 
           <div className="relative overflow-hidden mask-gradient max-w-full">
@@ -80,3 +80,4 @@ export function TrustBar() {
     </section>
   )
 }
+

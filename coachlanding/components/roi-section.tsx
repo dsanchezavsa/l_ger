@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { TrendingUp, Users, Target } from "lucide-react"
 
@@ -44,12 +43,6 @@ export function ROISection() {
               <p className="text-xs text-muted-foreground mt-2">(Manpower, Canadá)</p>
             </CardContent>
           </Card>
-        </div>
-
-        <div className="text-center">
-          <Button size="lg" className="text-lg px-8 py-6">
-            Solicitar diagnóstico gratuito
-          </Button>
         </div>
       </div>
     </section>

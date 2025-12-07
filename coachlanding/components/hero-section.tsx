@@ -1,10 +1,13 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, CheckCircle } from "lucide-react"
+import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 
 export function HeroSection() {
   return (
-    <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-background via-muted/30 to-background">
+    <section
+      id="inicio"
+      className="relative h-screen scroll-mt-24 flex items-center justify-center bg-gradient-to-br from-background via-muted/30 to-background"
+    >
       <div className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-2 gap-8 items-center h-full">
           <div className="space-y-6">
@@ -32,13 +35,9 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex">
               <Button size="lg" className="text-base md:text-lg px-6 py-4">
-                Agendar llamada de diagnóstico
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button variant="outline" size="lg" className="text-base md:text-lg px-6 py-4 bg-transparent">
-                Escribirme por WhatsApp
+                Escríbeme por WhatsApp
               </Button>
             </div>
           </div>

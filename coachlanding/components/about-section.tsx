@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function AboutSection() {
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="sobre-mi" className="py-20 scroll-mt-24 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">

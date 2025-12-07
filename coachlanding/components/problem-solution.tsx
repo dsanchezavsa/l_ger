@@ -1,6 +1,12 @@
 import { Target, Users, BarChart3 } from "lucide-react"
 
 export function ProblemSolution() {
+  const stats = [
+    { value: "85%", label: "mejora en alineación y comunicación" },
+    { value: "6x", label: "retorno promedio en procesos de coaching" },
+    { value: "90 días", label: "para ver avances claros en foco y hábitos" },
+  ]
+
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -42,6 +48,23 @@ export function ProblemSolution() {
             <h3 className="text-xl font-semibold">Tablero simple</h3>
             <p className="text-muted-foreground">Para ejecutar y medir avances de forma clara y sostenida.</p>
           </div>
+        </div>
+
+        <div className="mt-12 grid gap-4 sm:grid-cols-3">
+          {stats.map((stat, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-between rounded-xl border bg-muted/40 px-4 py-3"
+            >
+              <div>
+                <div className="text-2xl font-bold text-primary">{stat.value}</div>
+                <p className="text-sm text-muted-foreground">{stat.label}</p>
+              </div>
+              <div className="rounded-full bg-primary/10 p-3">
+                <BarChart3 className="h-5 w-5 text-primary" />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -6,24 +6,17 @@ import { ArrowRight, Phone, Mail, MapPin } from "lucide-react"
 
 export function CTASection() {
   return (
-    <section className="py-20 bg-primary text-primary-foreground">
+    <section id="contacto" className="py-20 scroll-mt-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Listo para dar foco y orden a tu negocio</h2>
           <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8">
             El secreto no es NO DETENERSE sino SIEMPRE continuar
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
-              Agendar diagnóstico
+              Contactanos por WhatsApp
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg px-8 py-6 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
-            >
-              Escribirme por WhatsApp
             </Button>
           </div>
         </div>
@@ -74,7 +67,7 @@ export function CTASection() {
                 Hablemos sobre cómo podemos transformar tu negocio y alcanzar tus objetivos.
               </p>
               <Button variant="secondary" size="lg">
-                Agendar llamada gratuita
+                Contactanos por WhatsApp
               </Button>
             </div>
           </div>
