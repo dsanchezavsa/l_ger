@@ -4,14 +4,19 @@ import Image from "next/image"
 
 export function TrustBar() {
   const companies = [
-    { name: "LOWE", logo: "/images/logos/Lowe.png" },
     { name: "RE/MAX Splendid", logo: "/images/logos/remax.png" },
-    { name: "Qualis Salud", logo: "/images/logos/qualis.png" },
     { name: "Star Technology", logo: "/images/logos/star.png" },
     { name: "RE/MAX Vincit", logo: "/images/logos/remax-vincit.png" },
-    { name: "Sharking Blue Marketing", logo: "/images/logos/shark.png" },
-    { name: "CG ConsultorÃ­a Integral", logo: "/images/logos/cg-consultoria.png" },
-    { name: "URB", logo: "/images/logos/urb.png" },
+    { name: "Chevron", logo: "/images/logos/chevron.png" },
+    { name: "Codigo", logo: "/images/logos/codigo.png" },
+    { name: "Corven", logo: "/images/logos/corven.png" },
+    { name: "Exxon", logo: "/images/logos/exxon.png" },
+    { name: "Iris", logo: "/images/logos/iris.png" },
+    { name: "Manly", logo: "/images/logos/manly.png" },
+    { name: "Mesquita Hermanos", logo: "/images/logos/Mesquita-hermanos.png" },
+    { name: "Mustand", logo: "/images/logos/mustand.png" },
+    { name: "Nimbo", logo: "/images/logos/nimbo.png" },
+    { name: "Polonia", logo: "/images/logos/polonia.png" },
   ]
 
   return (
@@ -19,8 +24,8 @@ export function TrustBar() {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-lg text-muted-foreground mb-8">
-            MÃ¡s de <span className="font-semibold text-primary">miles de horas</span> de sesiones y entrenamientos con
-            dueÃ±os de negocios, brokers y equipos comerciales
+            Más de <span className="font-semibold text-primary">10 mil horas</span> de sesiones y entrenamientos con
+            dueños de negocios, brokers y equipos comerciales
           </p>
 
           <div className="relative overflow-hidden mask-gradient max-w-full">

@@ -13,35 +13,43 @@ export function ServicesSection() {
   const services = [
     {
       icon: User,
-      title: "Coaching Individual",
-      subtitle: "Dueños/Directivos",
+      title: "Business Coaching",
+      subtitle: "Sesiones 1:1 y Coaching de Sala",
       description:
-        "Sesiones 1:1 para clarificar objetivos, fortalecer hábitos y alinear decisiones con propósito y resultados.",
-      bullets: ["Mapa de objetivos en 90 días", "Rutinas de foco semanales", "Feedback directo y accionable"],
+        "Una integración única de coaching ontológico, coaching de negocios y coaching comercial para líderes, dueños de negocios y equipos que buscan claridad, dirección y resultados sostenibles.",
+      bullets: ["Entrenamiento estratégico, emocional y conductual aplicado directamente a tus desafíos actuales."],
     },
     {
       icon: Users,
-      title: "Training Ejecutivo",
-      subtitle: "Liderazgo & Management",
+      title: "Dirección Estratégica & Alta Performance",
+      subtitle: "Acompañamiento 1:1 para Dueños de Negocios y Ejecutivos",
       description:
-        "Entrenamientos prácticos en liderazgo, comunicación y gestión para elevar el desempeño de mandos medios y managers.",
-      bullets: ["Playbook de reuniones efectivas", "Coordinación y accountability", "Coaching de situaciones reales"],
+        "Un espacio de trabajo de alto rendimiento donde combinamos dirección estratégica, mentalidad, diseño de futuro e implementación operativa.",
+      bullets: [
+        "Optimizamos tus decisiones, tu enfoque y tu capacidad de ejecución en el negocio y en el mercado.",
+        "De la visión a la acción, con método, precisión y seguimiento profesional.",
+      ],
     },
     {
       icon: TrendingUp,
-      title: "Capacitación Comercial",
-      subtitle: "Inteligencia de Ventas",
-      description:
-        "Técnicas realistas y medibles para prospección, pipeline y cierre; foco en hábitos y tableros simples.",
-      bullets: ["Pipeline claro y priorizado", "Secuencias de contacto simples", "Tableros con indicadores semanales"],
+      title: "Inteligencia Comercial Aplicada",
+      subtitle: "Equipos Comerciales, Brokers y Unidades de Negocio",
+      description: "Un modelo integral para ordenar, potenciar y escalar la operación comercial.",
+      bullets: [
+        "Incluye diagnóstico profundo, estrategia comercial, entrenamiento de habilidades, métricas de performance y seguimiento estructurado.",
+        "Ideal para equipos que necesitan productividad, método y resultados claros, con una mirada moderna y basada en datos.",
+      ],
     },
     {
       icon: Building,
-      title: "Coaching Organizacional",
-      subtitle: "Estrategias ágiles",
+      title: "Sistemas Organizacionales, Coaching Organizacional & Agilidad",
+      subtitle: "OKR | Scrum | SPF | Procesos | Liderazgo | Cultura | Coaching Organizacional",
       description:
-        "Diseño de rituales, coordinación y mejora continua para impulsar inteligencia colectiva y adaptabilidad.",
-      bullets: ["Rituales de mejora continua", "KPIs compartidos y visibles", "Roles y acuerdos claros"],
+        "Implementación de sistemas modernos de ejecución para empresas que buscan orden, precisión y adaptabilidad.",
+      bullets: [
+        "Integración de OKR, metodologías ágiles, diseño de procesos, dirección de equipos, coaching organizacional y ajuste cultural en un mismo marco.",
+        "Un enfoque práctico para organizaciones que quieren crecer con estructura, foco, velocidad y personas preparadas para ese crecimiento.",
+      ],
     },
   ]
 
@@ -97,7 +105,7 @@ export function ServicesSection() {
                   <div
                     className={cn(
                       "overflow-hidden rounded-lg bg-muted/70 px-3 py-2 text-sm transition-all",
-                      isOpen ? "opacity-100 max-h-44" : "opacity-0 max-h-0"
+                      isOpen ? "opacity-100 max-h-96" : "opacity-0 max-h-0"
                     )}
                   >
                     <div className="mb-2 flex items-center gap-2 text-primary font-semibold">
